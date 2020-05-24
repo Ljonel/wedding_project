@@ -173,7 +173,7 @@ nav{
 .section-wrapper{
     margin-top: 120px;
     text-align: center;
-    width: 70%;
+    width: 75%;
     margin-bottom: 50px;
 }
 .section-one-text{
@@ -251,6 +251,7 @@ nav{
     display: flex;
     flex-direction: row;
     background: #f3f3f3;
+    overflow: hidden;
 }
 .three-images{
    margin-left: 50px;
@@ -511,7 +512,8 @@ footer{
         margin: 10px;
     }
     .services{
-        font-size: 4rem;
+        font-size: 3rem;
+        margin: 0 auto 0 auto;
     }
     .section-three-content{
         margin-right: 10px;
@@ -576,12 +578,6 @@ footer{
     .luxury{
         margin-right: 40px;
     }
-    .section-three-content h2, .letter {
-        margin-right: 40px;
-    }
-    .read-more{
-        margin-right: 40px;
-    }
     .gallery{
         width: 100%;
     }
@@ -618,15 +614,13 @@ footer{
     .section-three-content h2, .letter {
         margin: 0;
     }
-    .rgh, .read-more {
+    .read-more {
         margin-right: 0;
     }
     .big-font{
         font-size: 2rem;
     }
-    .section-four-container{
-        margin-top: 50%;
-    }
+    
     .section-four-container h3{
         font-size: 1.5rem;
     }
@@ -634,7 +628,8 @@ footer{
         font-size: 2rem;
     }
     .services-text{
-        color: #000;
+        color: white;
+        font-size: 15px;
     }
     .gallery{
         width: 100vw;
