@@ -592,6 +592,12 @@ footer{
     .comment{
         text-align: justify;
     }
+    .section-two{
+        margin-bottom: 10px;
+    }
+    .three-images{
+        margin-bottom: 10px;
+    }
 }
 @media(max-width: 460px){
     footer{
