@@ -133,7 +133,7 @@ nav{
     position: absolute;
     top: 0;
     right: 0;
-    transform: translateX(500px);
+    transform: translateX(250px);
     transition: .3s .1s ease-in-out;
 }
 .nav--active{
@@ -474,7 +474,6 @@ footer{
         height: 100%;
         margin-bottom: 10px
     }
-    .
     .img-item img{
         padding: 0;
     }
@@ -608,12 +607,13 @@ footer{
         justify-content: center;
     }
 }
-@media(max-width: 350px){
+@media(max-width: 375px){
     .title h1{
        font-size: 2rem;
     }
     .section-two-wrapper{
         text-align: center;
+        margin-top: 100px;
     }
     .section-three-content h2, .letter {
         margin: 0;
@@ -651,5 +651,5 @@ footer{
     .color{
         padding: 0;
     }
-    
+  
 }
