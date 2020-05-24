@@ -544,6 +544,13 @@ footer{
     body{
         overflow-x: hidden;
     }
+    .hamburger--active{
+        transform: translateX(0);
+        z-index: 100;
+    }
+    nav{
+        width: 210px;
+    }
     .title h1{
         font-size: 2rem;
     }
@@ -577,9 +584,13 @@ footer{
     }
     .luxury{
         margin-right: 40px;
+        text-align: justify;
     }
     .gallery{
         width: 100%;
+    }
+    .comment{
+        text-align: justify;
     }
 }
 @media(max-width: 460px){
