@@ -388,4 +388,15 @@ footer{
     .box .content {
         bottom: 0px;
     }
+
+   
 }
+@media (min-width: 768px) {
+    [data-aos="fade-right"]{
+        opacity: 0;
+    }
+
+    [data-aos="fade-right"].aos-animate {
+      transform: translateX(100px);
+    }
+  }
